@@ -1,0 +1,3 @@
+const STORE_COMMENTS = `@comments/STORE_COMMENTS`;
+
+export {STORE_COMMENTS};

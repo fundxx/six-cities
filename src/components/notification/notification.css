@@ -1,0 +1,27 @@
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.notification-item {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  color: white;
+}
+
+.notification-item--error {
+  background-color: rgb(255, 0, 0, 0.5);
+}
+
+.notification-item--warning {
+  background-color: rgb(210, 105, 30, 0.5);
+}
+
+.notification-item--success {
+  background-color: rgb(0, 128, 0, 0.5);
+}
